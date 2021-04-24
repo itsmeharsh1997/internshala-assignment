@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <title>Fruits Basket</title>
+
+
+  <link rel="stylesheet" href="fruits.css">
+
+
+<body>
+
+
+<div class="heading">All Items</div>
+
+<div class="container">
+
+
+
+
+  <div class="main">
+    <div class="sub">
+      Apple
+    </div>
+    <br>
+    <div class="sub1">
+      <div id="poke"><button class="but">+</button></div>
+      <div id="counter" class="">0</div>
+      <div id="poke1"><button class="but">-</button></div>
+    </div>
+  </div>
+
+
+
+  <div class="main1">
+    <div class="sub">
+      Orange
+    </div>
+    <br>
+    <div class="sub1">
+      <div id="pokee"><button class="but">+</button></div>
+      <div id="counterr" class="">0</div>
+      <div id="pokee1"><button class="but">-</button></div>
+    </div>
+  </div>
+
+  
+  <div class="main2">
+    <div class="sub">
+      Grapes
+    </div>
+    <br>
+    <div class="sub1">
+      <div id="pokeee"><button class="but">+</button></div>
+      <div id="counterrr" class="">0</div>
+      <div id="pokeee1"><button class="but">-</button></div>
+    </div>
+  </div>
+
+</div>
+
+
+
+
+<div class="result">
+  <div class="subresult">
+
+    <div id="myDIV">
+
+    </div>
+    
+    <div id="myDIV1">
+
+    </div>
+
+    <div id="myDIV2">
+
+    </div>
+
+
+  </div>
+</div>
+
+
+
+  <script type='text/javascript'>
+
+
+
+//main
+//increament
+    {
+      var poke = document.getElementById('poke');
+      var cmp = document.getElementById('counter');
+      var poke1 = document.getElementById('poke1');
+
+      var newEle =
+
+
+        poke.addEventListener('click', myfonction)
+
+
+      function myfonction() {
+        cmp.innerHTML = parseInt(cmp.innerHTML) + 1;
+
+      var element = document.getElementById("myDIV");
+      element.classList.add("mystyle");
+
+
+      }
+
+    }
+
+//decreament
+
+    {
+      var cmp = document.getElementById('counter');
+      var poke1 = document.getElementById('poke1');
+
+      poke1.addEventListener('click', myfonction1)
+
+
+      function myfonction1() {
+        cmp.innerHTML = (cmp.innerHTML) - 1;
+
+        var element = document.getElementById("myDIV");
+      element.classList.remove("mystyle");
+      }
+    }
+
+
+
+
+
+
+
+
+    //main1
+//increament
+{
+      var pokee = document.getElementById('pokee');
+      var cmpp = document.getElementById('counterr');
+      var pokee1 = document.getElementById('pokee1');
+
+   
+
+
+        pokee.addEventListener('click', myfonctionn)
+
+
+      function myfonctionn() {
+        cmpp.innerHTML = parseInt(cmpp.innerHTML) + 1;
+        var element = document.getElementById("myDIV1");
+      element.classList.add("mystyle1");
+
+
+      }
+
+    }
+
+//decreament
+
+    {
+      var cmpp = document.getElementById('counterr');
+      var pokee1 = document.getElementById('pokee1');
+
+      pokee1.addEventListener('click', myfonctionn1)
+
+
+      function myfonctionn1() {
+        cmpp.innerHTML = (cmpp.innerHTML) - 1;
+
+        var element = document.getElementById("myDIV1");
+      element.classList.remove("mystyle1");
+      }
+    }
+
+
+
+      //main2
+//increament
+{
+      var pokeee = document.getElementById('pokeee');
+      var cmppp = document.getElementById('counterrr');
+      var pokeee1 = document.getElementById('pokeee1');
+
+   
+
+
+        pokeee.addEventListener('click', myfonctionnn)
+
+
+      function myfonctionnn() {
+        cmppp.innerHTML = parseInt(cmppp.innerHTML) + 1;
+        var element = document.getElementById("myDIV2");
+      element.classList.add("mystyle2");
+
+
+      }
+
+    }
+
+//decreament
+
+    {
+      var cmppp = document.getElementById('counterrr');
+      var pokeee1 = document.getElementById('pokeee1');
+
+      pokeee1.addEventListener('click', myfonctionnn1)
+
+
+      function myfonctionnn1() {
+        cmppp.innerHTML = (cmppp.innerHTML) - 1;
+        var element = document.getElementById("myDIV2");
+      element.classList.remove("mystyle2");
+      }
+    }
+
+
+
+
+
+
+
+
+
+
+
+  </script>
+
+</body>
+
+</html>

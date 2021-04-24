@@ -1,0 +1,40 @@
+body
+{
+    background: rgb(255, 255, 255);
+}
+
+
+
+.boxheader
+{
+    color: black;
+    font-size: 1.2;
+    margin: 2rem;
+    text-align: center;
+}
+
+
+.container
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border: none;
+    align-items: center;
+    width: fit-content;
+    padding: 2.9rem 2.9rem;
+    margin: 3rem auto;
+    border-radius: 10px;
+    background: white;
+    box-shadow: 2px 0px 15px rgb(214, 214, 214);
+    height: fit-content;
+}
+
+
+form
+{
+    display: flex;
+    justify-content: center;   
+    flex-direction: column;
+}
+
